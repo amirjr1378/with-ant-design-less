@@ -20,7 +20,8 @@
     "null-loader": "2.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "webpack": "^4.46.0"
+    "webpack": "^4.46.0", 
+    "node-sass": "^4.14.1"
   },
   "license": "MIT"
 }
