@@ -6,14 +6,18 @@ import {
   Switch,
   Slider,
   Button,
-} from 'antd'
+} from "antd";
 
-const FormItem = Form.Item
-const Option = Select.Option
+const FormItem = Form.Item;
+const Option = Select.Option;
+import "./index.less";
+import s from "./index.scss";
+
+console.log(s);
 
 export default function Home() {
   return (
-    <div style={{ marginTop: 100 }}>
+    <div className={s.amir}>
       <Form layout="horizontal">
         <FormItem
           label="Input Number"
@@ -84,5 +88,5 @@ export default function Home() {
         </FormItem>
       </Form>
     </div>
-  )
+  );
 }
